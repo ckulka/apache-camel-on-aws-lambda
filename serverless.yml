@@ -1,0 +1,14 @@
+service: apache-camel-on-aws-lambda
+
+provider:
+  name: aws
+  runtime: java8
+
+package:
+  artifact: target/apache-camel-on-aws-lambda-1.0-SNAPSHOT.jar
+
+functions:
+  cron:
+    handler: cc.ic3.apacheCamelOnAWSLambda.MyCamelApplication
+    events:
+    - schedule: rate(1 minute)
