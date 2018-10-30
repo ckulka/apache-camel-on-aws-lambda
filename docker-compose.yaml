@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  camel:
+    image: ckulka/apache-camel-on-aws-lambda
+
+  db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: ilovecookies
