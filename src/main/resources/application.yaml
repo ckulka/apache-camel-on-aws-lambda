@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db/postgres
+    username: postgres
+    password: ilovecookies
+
+uploadEndpoint: aws-s3://bucketOrArn?region=<region>&accessKey=<access key id>&secretKey=<access key secret>

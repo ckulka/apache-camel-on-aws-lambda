@@ -9,6 +9,7 @@ It is still very much work in progress and mostly just a simple proof-of-concept
 - [Apache Camel components](https://github.com/apache/camel/tree/master/components)
 - [File component](https://github.com/apache/camel/blob/master/camel-core/src/main/docs/file-language.adoc)
 - [SQL component](https://github.com/apache/camel/blob/master/components/camel-sql/src/main/docs/sql-component.adoc)
+- [AWS S3 Storage Service Component](https://github.com/apache/camel/blob/master/components/camel-aws/src/main/docs/aws-s3-component.adoc)
 
 Regarding testing
 

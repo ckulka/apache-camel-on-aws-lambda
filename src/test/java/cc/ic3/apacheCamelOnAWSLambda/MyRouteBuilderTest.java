@@ -1,5 +1,6 @@
 package cc.ic3.apacheCamelOnAWSLambda;
 
+import java.nio.file.Files;
 import org.apache.camel.CamelContext;
 import org.apache.camel.EndpointInject;
 import org.apache.camel.Produce;
@@ -11,11 +12,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.test.context.ActiveProfiles;
-
-import java.nio.file.Files;
 
 @RunWith(CamelSpringRunner.class)
 @SpringBootTest
